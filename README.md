@@ -42,8 +42,18 @@ Many review platforms lack the ability to provide detailed, category-specific fe
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/honereview.git
-   cd honereview
+# Clone the repository
+git clone https://github.com/yourusername/honereview.git
+
+# Navigate to project directory
+cd honereview
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env
+
+# Start development server
+npm run dev
 
